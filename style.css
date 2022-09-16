@@ -45,3 +45,28 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(imgs/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#learner{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg,lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#pro{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    font-size: 15px;
+    text-align: center;
+}
